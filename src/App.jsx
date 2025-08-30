@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import AddVehicle from './components/AddVehicle';
-// import SearchBook from './components/SearchBook';
 import BookingsList from './components/BookingsList';
 import './index.css';
 import SearchBook from './components/SearchAndBook';

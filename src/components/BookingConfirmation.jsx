@@ -1,4 +1,4 @@
-// src/components/BookingConfirmation.jsx
+
 import React from "react";
 import { useLocation, Link } from "react-router-dom";
 import { Container, Card, Button } from "react-bootstrap";

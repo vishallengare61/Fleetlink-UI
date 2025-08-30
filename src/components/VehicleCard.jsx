@@ -3,7 +3,7 @@ import { Card, Button } from "react-bootstrap";
 import { Truck } from "lucide-react";
 
 const VehicleCard = ({ vehicle, onBook }) => {
-  const isBooked = vehicle.isBooked; // assume API gives this flag
+  const isBooked = vehicle.isBooked;
 
   return (
     <Card className="mb-3 shadow-sm">
@@ -21,7 +21,6 @@ const VehicleCard = ({ vehicle, onBook }) => {
           </Card.Text>
         )}
 
-        {/* Booking Button */}
         {onBook && (
           <Button
             variant={isBooked ? "secondary" : "primary"}

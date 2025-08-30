@@ -7,7 +7,6 @@ const Vehicles = () => {
   const [vehicles, setVehicles] = useState([]);
   const location = useLocation();
   
-  // Get search params from URL
   const query = new URLSearchParams(location.search);
   const capacityRequired = query.get("capacityRequired");
   const fromPincode = query.get("fromPincode");

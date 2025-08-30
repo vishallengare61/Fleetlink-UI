@@ -66,11 +66,11 @@ function SearchBook() {
         fromPincode: searchData.fromPincode,
         toPincode: searchData.toPincode,
         startTime: searchData.startTime.toISOString(),
-        customerId: 'cust-' + Math.random().toString(36).substr(2, 9) // Simulated customer ID
+        customerId: 'cust-' + Math.random().toString(36).substr(2, 9) 
       });
 
       setMessage('Booking successful!');
-      setVehicles([]); // Clear results to force new search
+      setVehicles([]); 
     } catch (err) {
       setError(err.response?.data?.error || 'Failed to create booking');
     }
