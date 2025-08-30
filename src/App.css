@@ -1,0 +1,8 @@
+/* src/index.css */
+body {
+  background-color: #f7f8fb;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+.card {
+  border-radius: 12px;
+}
